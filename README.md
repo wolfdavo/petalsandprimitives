@@ -1,2 +1,2 @@
-# petalsandprimitives
-111 S. Main Street, Galena, IL
+# ThreePageBoiler
+Starting template for three page small business sites.
