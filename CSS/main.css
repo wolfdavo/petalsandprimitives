@@ -3,8 +3,25 @@
   src: url("../assets/global/TEMPSITC.TTF") format("truetype");
   font-weight: normal;
   font-style: normal; }
+.footer {
+  background-color: #2E0033;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+.footer-img {
+  display: flex;
+  align-self: center; }
+
+.footer-sm {
+  color: #FFFAFF;
+  opacity: 0.75; }
+  .footer-sm a {
+    color: #FFFAFF;
+    text-decoration: underline; }
+
 .navbar {
-  background-color: #F6F4F2;
+  background-color: #FFFAFF;
   display: flex;
   flex-direction: column; }
   .navbar .navbar-brand {
@@ -12,7 +29,7 @@
     margin-left: auto;
     font-weight: bolder;
     font-size: 2rem;
-    color: #553C2A; }
+    color: #2E0033; }
 
 .navbar-links {
   display: flex;
@@ -22,9 +39,73 @@
   padding: 0; }
 
 .nav-link > a {
-  color: #553C2A; }
+  color: #2E0033; }
 
 body {
   font-family: "Tempus_Sans_ITC"; }
+
+.button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  background-color: #2E0033;
+  margin: 10px;
+  color: #FFFAFF;
+  font-size: 2rem;
+  transition: 0.2s ease-in-out;
+  display: inline-block; }
+  .button:hover {
+    color: #FFFAFF;
+    text-decoration: none;
+    transform: scale(1.05); }
+
+.parallax-container {
+  /* The image used */
+  background-image: url(../assets/home/header.jpg);
+  /* Set a specific height */
+  height: 90vh;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-parent {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  flex-direction: row; }
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  filter: drop-shadow(0 0 50px black); }
+
+.header-text {
+  text-align: center;
+  color: #FFFAFF;
+  text-shadow: 0 0 30px black, 0 0 30px black, 0 0 30px black, 0 0 20px black;
+  max-width: 70%;
+  margin: auto; }
+  .header-text h1 {
+    font-size: 3.5rem;
+    font-weight: 500; }
+
+.header-btns {
+  text-align: center; }
+
+.gallery {
+  height: auto;
+  width: 100%;
+  box-shadow: inset 0 0 15px #000;
+  background-image: url(../assets/home/gallery-background.jpg); }
+  .gallery .gallery-hdr {
+    color: #2E0033;
+    margin: 0;
+    padding: 50px;
+    font-size: 2.5rem;
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
