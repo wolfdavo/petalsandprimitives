@@ -1,5 +1,5 @@
 .navbar
-  background-color: $brand-white
+  background-color: $brand-dark
   display: flex
   flex-direction: column
   .navbar-brand
@@ -7,7 +7,9 @@
     margin-left: auto
     font-weight: bolder
     font-size: 2rem
-    color: $brand-dark
+    color: $brand-white
+    &:hover
+      color: $brand-white
 
 .navbar-links
   display: flex
@@ -17,4 +19,8 @@
   padding: 0
 
 .nav-link>a
-  color: $brand-dark
+  color: $brand-white
+  transition: 0.2s ease-in-out
+  display: block
+  &:hover
+    transform: scale(1.05)

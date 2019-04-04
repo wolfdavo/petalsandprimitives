@@ -30,9 +30,23 @@
   width: 100%
   box-shadow: inset 0 0 15px #000
   background-image: url(../assets/home/gallery-background.jpg)
+  padding-bottom: 25px
   .gallery-hdr
     color: $brand-dark
     margin: 0
     padding: 50px
     font-size: 2.5rem
     font-weight: bold
+
+.gallery-pics
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-around
+  .gallery-pic-frame
+    margin: 25px
+    align-self: center
+    .galllery-pic
+      transition: 0.2s ease-in-out
+      &:hover
+        transform: scale(1.1)
