@@ -6,6 +6,37 @@
   <body>
     <?php include('./includes/navbar.html'); ?>
 
+    <section class="contact-page">
+      <div class="center-block">
+        <h1>We'd love to hear from you!</h1>
+        <h2><a href="tel:8157773220">Phone: (815) 777-3220</a></h2>
+        <h2>Email: petals111@att.net</h2>
+        <form name="contact_form" class="contact-form" id="contactForm" method="post" action="contact-form-handler.php">
+
+            <div class="form-group">
+              <label for='Name'>*Name:</label>
+              <input class="form-control" type="text" id="Name" name="Name" />
+            </div>
+            <div class="form-group">
+              <label for='EMail'>*E-Mail:</label>
+              <input class="form-control" type="text" id="EMail" name="EMail" />
+            </div>
+            <div class="form-group">
+              <label for='Phone'>Phone Number:</label>
+              <input class="form-control" type="text" id="Phone" name="Phone" />
+            </div>
+
+            <div class="form-group">
+              <label for='Message'>*Message:</label>
+              <textarea class="form-control" name="Message" rows="8" cols="80" type="text" id="Message"></textarea>
+            </div>
+
+            <button type="submit" name="submit" value="submit" class="btn button">Submit</button>
+
+          </form>
+      </div>
+
+    </section>
 
 
     <?php include('./includes/footer.html'); ?>

@@ -20,6 +20,19 @@
     color: #FFFAFF;
     text-decoration: underline; }
 
+.footer-icons {
+  padding: 6px;
+  padding-right: 10px; }
+
+.icon {
+  display: inline-block;
+  margin: 10px;
+  color: #FFFAFF;
+  transition: 0.2s ease-in-out; }
+  .icon:hover {
+    transform: scale(1.04);
+    color: #4B703A; }
+
 .navbar {
   background-color: #2E0033;
   display: flex;
@@ -49,6 +62,15 @@
 
 body {
   font-family: "Tempus_Sans_ITC"; }
+
+.center {
+  text-align: center; }
+
+.center-block {
+  display: block;
+  margin: auto;
+  max-width: 700px;
+  text-align: center; }
 
 .button {
   padding: 10px 15px;
@@ -104,6 +126,23 @@ body {
   padding: 50px; }
   .aboutus .text {
     max-width: 500px; }
+    .aboutus .text p,
+    .aboutus .text ul li {
+      font-size: 22px; }
+
+.map {
+  align-self: center; }
+
+.contact-page {
+  display: block;
+  background-color: #FFFAFF;
+  padding: 50px;
+  margin: auto; }
+  .contact-page a {
+    color: #2E0033; }
+
+.contact-form {
+  max-width: 700px; }
 
 .header-parent {
   display: flex;
