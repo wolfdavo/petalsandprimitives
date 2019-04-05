@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'petals111@att.net';//<-----Put Your email address here.
+$myemail = 'contactform@petalsandprimitives.com';//<-----Put Your email address here.
 if(empty($_POST['Name'])  ||
    empty($_POST['EMail']) ||
    empty($_POST['Message']))
