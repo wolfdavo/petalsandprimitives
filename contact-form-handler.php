@@ -51,7 +51,7 @@ if( empty($errors))
     echo nl2br($errors);
     ?>
     <br><br>
-    <a class="btn btn-primary" href="contact.html">Back to contact page</a>
+    <a class="button" type="button" href="contact.html">Back to contact page</a>
   </div>
 
 
