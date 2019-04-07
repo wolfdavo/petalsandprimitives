@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'contactform@petalsandprimitives.com';//<-----Put Your email address here.
+$myemail = 'contactform@petalsandprimitives.com';//<-----This has a forwarder to petals111@att.net.
 if(empty($_POST['Name'])  ||
    empty($_POST['EMail']) ||
    empty($_POST['Message']))
